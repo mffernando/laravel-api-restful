@@ -4,12 +4,12 @@ Laravel Framework: 5.7
 
 PHP: 7.1.4
 
-# Installation
+# Instalação
 1: Download do projeto no formato zip ou utilizando o comando git clone disponível em https://github.com/mffernando/laravel-api-restful;
 
 2: Instalar o Framework Laravel disponível em [https://laravel.com/docs/5.7/installation];
 
-## Configuring database
+## Configuração do Banco de Dados
 1: Editar ou criar o arquivo `.env`, configurando as variáveis DB_DATABASE, DB_USERNAME and DB_PASSWORD.
 ```
 DB_CONNECTION=mysql
