@@ -1,10 +1,12 @@
 # API RESTFul with 4 Endpoints
 
 Laravel Framework: 5.7 
+
 PHP: 7.1.4
 
 # Installation
 1: Download the zip file or git clone the project;
+
 2: Install laravel [https://laravel.com/docs/5.7/installation];
 
 ## Configuring database
@@ -48,3 +50,17 @@ localhost:8000/api/users
 - **Delete** an User: `[DELETE] http://localhost:8000/api/users/{id}`
 
 # Test using Json and a terminal
+```
+REGISTER
+curl -X POST http://localhost:8000/api/register \
+ -H "Accept: application/json" \
+ -H "Content-Type: application/json" \
+ -d '{"name": "Administrator", "username": "admin", "email": "admin@admin.com", "password": "secret",  "password_confirmation": "secret", "permission": "admin"}'
+
+LOGIN
+curl -X POST localhost:8000/api/login \
+  -H "Accept: application/json" \
+  -H "Content-type: application/json" \
+  -d "{\"email\": \"admin@admin.com\", \"password\": \"secret\" }"
+
+```
