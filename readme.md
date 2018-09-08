@@ -5,9 +5,9 @@ Laravel Framework: 5.7
 PHP: 7.1.4
 
 # Installation
-1: Download the zip file or git clone the project;
+1: Download the zip file or git clone the project.
 
-2: Install laravel [https://laravel.com/docs/5.7/installation];
+2: Install laravel [https://laravel.com/docs/5.7/installation].
 
 ## Configuring database
 1: You must edit or create `.env` file in project's root path, configuring the DB_DATABASE, DB_USERNAME and DB_PASSWORD.
@@ -19,6 +19,7 @@ DB_DATABASE=my_database_name
 DB_USERNAME=my_username_database
 DB_PASSWORD=my_password_database
 ```
+2: Create a new database with the same name [DB_DATABASE] in your MySQL.
 
 Migrate data model:
 
