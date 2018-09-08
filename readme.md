@@ -21,23 +21,31 @@ DB_PASSWORD=my_password_database
 ```
 2: Create a new database with the same name [DB_DATABASE] in your MySQL.
 
-Migrate data model:
+3: Go to the project root path.
+
+4: Run the command:
+
+```
+$ composer install
+```
+
+5: Migrate data model:
 
 ```
 $ php artisan migrate
 ```
 
-## Database seeding
-Database seeding is the process of filling up our database with dummy data that we can use to test it.
+6: Database seeding is the process of filling up our database with dummy data that we can use to test it.
 
 ```
 $ php artisan db:seed --class=UsersTableSeeder
 ```
 
-# Running the aplication
+7: Running the aplication:
 ```
 $ php artisan serve
 ```
+8: Use in your browser:
 
 ```
 localhost:8000/api/users
