@@ -25,6 +25,7 @@ class UsersTableSeeder extends Seeder
           'username' => 'Admin',
           'email' => 'admin@admin.com',
           'password' => $password,
+          'permission' => 'admin',
         ]);
 
         //generate fake users
@@ -34,6 +35,7 @@ class UsersTableSeeder extends Seeder
             'username' => $faker->name,
             'email' => $faker->email,
             'password' => $password,
+            'permission' => 'user',
           ]);
         }
     }
