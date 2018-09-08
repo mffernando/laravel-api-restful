@@ -36,6 +36,10 @@ $ php artisan db:seed --class=UsersTableSeeder
 $ php artisan serve
 ```
 
+```
+localhost:8000/api/users
+```
+
 # Test using Postman [https://www.getpostman.com/]
 - **Create** User: `[POST] http://localhost:8000/api/users/`
 - **Retrieve all** Users: `[GET] http://localhost:8000/api/users/`
